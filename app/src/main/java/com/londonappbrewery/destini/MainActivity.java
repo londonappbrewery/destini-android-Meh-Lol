@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                     buttonBottom.setText(R.string.T3_Ans2);
                     mStoryIndex = 3;
                 }
-                else if (mStoryIndex == 3){
+                else {
                     mTextView.setText(R.string.T6_End);
                     buttonTop.setVisibility(View.GONE);
                     buttonBottom.setVisibility(View.GONE);
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                     buttonTop.setVisibility(View.GONE);
                     buttonBottom.setVisibility(View.GONE);
                 }
-                else if (mStoryIndex == 3){
+                else {
                     mTextView.setText(R.string.T5_End);
                     buttonTop.setVisibility(View.GONE);
                     buttonBottom.setVisibility(View.GONE);
