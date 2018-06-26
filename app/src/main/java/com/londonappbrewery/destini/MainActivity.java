@@ -11,9 +11,9 @@ import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity {
 
     // TODO: Steps 4 & 8 - Declare member variables here:
-    TextView mTextView;
-    Button buttonTop;
-    Button buttonBottom;
+    private TextView mTextView;
+    private Button buttonTop;
+    private Button buttonBottom;
     int mStoryIndex = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 if (mStoryIndex == 1){
                     mTextView.setText(R.string.T2_Story);
                     buttonTop.setText(R.string.T2_Ans1);
-                    buttonBottom.setText(R.string.T2_Ans1);
+                    buttonBottom.setText(R.string.T2_Ans2);
                     mStoryIndex = 2;
                 }
                 else if (mStoryIndex == 2){
